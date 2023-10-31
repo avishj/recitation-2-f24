@@ -4,7 +4,7 @@
 
 **GitHub Codespaces**
 
-In the current repository, go to `<> Code`, select the `Codespaces` tab, and `Create codespace on main`. Wait until the container finishes building.
+In the current repository, go to `<> Code > Codespaces > Create codespace on main`. Wait until the container finishes building.
 
 **Local Setup**
 
