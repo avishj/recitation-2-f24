@@ -26,7 +26,6 @@
         ├── easymock.iml
         └── pom.xml
     └── mockito/  
-    ├── easymock/
         ├── src/
             ├── main/
                 ├── .../App.java
@@ -38,5 +37,5 @@
         ├── target/
         ├── easymock.iml
         └── pom.xml
-└── resources/       Resource files for the README.md
+└── resources/       Presentation from the Recitation
 ```
