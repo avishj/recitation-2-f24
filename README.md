@@ -10,11 +10,13 @@ In the current repository, go to `<> Code`, select the `Codespaces` tab, and `Cr
 
 Clone the current repository:
 
-`git clone git@github.com:MSE-QualityAssurance/recitation-2-f23.git`
+```git clone git@github.com:MSE-QualityAssurance/recitation-2-f23.git```
 
 Run the following command for each of the projects:
-`cd TestingWithStubs/easymock && mvn clean compile package`
-`cd TestingWithStubs/mockito && mvn clean compile package`
+
+```cd TestingWithStubs/easymock && mvn clean compile package```
+
+```cd TestingWithStubs/mockito && mvn clean compile package```
 
 
 ## Content
