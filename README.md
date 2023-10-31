@@ -1,6 +1,5 @@
 # 17 623 Quality Assurance: Recitation 2 Fall 2023
 
----
 ## Installation
 
 **GitHub Codespaces**
@@ -8,9 +7,8 @@
 
 **Local Setup**
 
----
 
-### Content
+## Content
 ```
 .
 ├── README.md
