@@ -55,7 +55,7 @@ Run the following command for each of the projects:
 
 ### Exercise 1: Implement toDollars
 
-Implement **toDollars** method in Currency. Using your preferred mocking framework, introduce a new test.
+Implement `toDollars` method in Currency. Using your preferred mocking framework, introduce a new test.
 
 
 ### Exercise 2: Testing Conversion with Different Rates
