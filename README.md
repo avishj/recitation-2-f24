@@ -62,7 +62,7 @@ Implement `toDollars` method in Currency. Using your preferred mocking framework
 
 Test the `toEuros` method with different exchange rates. For instance, write one test where the conversion rate from USD to EUR is 1.1, and another test where the rate is 0.9.
 
-### Exercise 3: Verifying Method Invocation Counts for Mockito
+### Exercise 3: Verifying Method Invocation Counts with Mockito
 
 Write a test case for **Mockito** to verify that the getRate method of the ExchangeRate service is called exactly once when the toEuros method of the Currency class is invoked.
 
