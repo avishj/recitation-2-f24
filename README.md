@@ -53,6 +53,6 @@ Run the following command for each of the projects:
 
 ## Exercises
 
-1. Implement toDollars method in Currency
+1. Implement **toDollars** method in Currency
 
 2. Use your favorite mocking framework
