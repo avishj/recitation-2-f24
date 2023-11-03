@@ -51,8 +51,23 @@ Run the following command for each of the projects:
 └── resources/       Presentation from the Recitation
 ```
 
-## Exercises
+### Exercise 1: Implement toDollars
 
+Exercise Description: 
 1. Implement **toDollars** method in Currency
 
 2. Use your favorite mocking framework
+
+### Exercise 2: Testing Conversion with Different Rates
+
+Exercise Description:
+
+Test the toEuros method with different exchange rates. For instance, write one test where the conversion rate from USD to EUR is 1.1, and another test where the rate is 0.9.
+
+### Exercise 3: Verifying Method Invocation Counts
+
+Exercise Description:
+
+Write a test case to verify that the getRate method of the ExchangeRate service is called exactly once when the toEuros method of the Currency class is invoked.
+
+*Tip:* Use `Mockito.verify(???, Mockito.times(???)).getRate(???, ???);`
