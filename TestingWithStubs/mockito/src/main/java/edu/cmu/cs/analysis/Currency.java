@@ -12,8 +12,12 @@ public class Currency {
 
   public Currency toEuros(ExchangeRate exchangeRate) {
     double exchangeAmount = this.amount * exchangeRate.getRate("USD", "EUR");
-
     return new Currency(exchangeAmount, "EUR");
+  }
+
+  public Currency toDollars(ExchangeRate exchangeRate) {
+    double exchangeAmount = this.amount * exchangeRate.getRate("EUR", "USD");
+    return new Currency(exchangeAmount, "USD");
   }
 
   @Override

@@ -18,4 +18,17 @@ public class ExchangeRateTest {
     Currency actual = testObject.toEuros(mock);
     Assert.assertEquals(expected, actual);
   }
+
+  @Test
+  public void getRateInDollars() {
+    Currency testObject = new Currency(2.50, "EUR");
+    Currency expected = new Currency(3.75, "USD");
+
+    ExchangeRate mock = EasyMock.createMock(ExchangeRate.class);
+    EasyMock.expect(mock.getRate("EUR", "USD")).andReturn(1.5);
+    EasyMock.replay(mock);
+
+    Currency actual = testObject.toDollars(mock);
+    Assert.assertEquals(expected, actual);
+  }
 }
