@@ -13,7 +13,7 @@
 		}
 	},
 
-	"postCreateCommand": "cd /workspace/TestingWithStubs/easymock && mvn clean compile package && cd /workspace/TestingWithStubs/mockito && mvn clean compile package"
+	"postCreateCommand": "cd /workspace/recitation-2-f24/TestingWithStubs/easymock && mvn clean compile package && cd /workspace/recitation-2-f24/TestingWithStubs/mockito && mvn clean compile package"
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
